@@ -1,10 +1,7 @@
 // change the entirie randomizer logic to make it more efficient
-var rando1 = Math.random();
-var rando2 = Math.random();
-rando1 = rando1*10;
-rando2 = rando2*10;
-var randomizer1 = Math.floor((rando1)/1.5);
-var randomizer2 = Math.floor((rando2)/1.5);
+
+var randomizer1 = Math.floor(Math.random()*6)+1;
+var randomizer2 = Math.floor(Math.random()*6)+1;
 
 const images = [
     'images/dice1.png',
